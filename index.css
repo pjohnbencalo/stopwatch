@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#stopwatch-section {
+    background-color: #e52165;
+}
+
+#stopwatch-container {
+    background-color: #0d1137;
+}
+
+#timer-display {
+    font-size: calc(2vw + 2vh);
+}
+
+@media (max-width: 768px) {
+    #stopwatch-container {
+        width: 75% !important;
+    }      
+}
