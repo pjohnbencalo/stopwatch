@@ -8,14 +8,19 @@ body {
 
 #stopwatch-container {
     background-color: #0d1137;
+    height: 30%;
 }
 
-#timer-display {
+#timer-display, button {
     font-size: calc(2vw + 2vh);
+}
+button {
+    font-size: calc(1vw + 1vh) !important;
 }
 
 @media (max-width: 768px) {
     #stopwatch-container {
         width: 75% !important;
+        height: 23% !important;
     }      
 }
